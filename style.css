@@ -1,1 +1,68 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-flow: column wrap; 
+}
 
+header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  height: 665.62px;
+  background-image: url(images/IMG_8053.JPG);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: left;
+  margin: 0px;
+  padding-top: 239px;
+  padding-left: 416px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 82px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: left;
+  margin: 0px;
+  padding-left: 416px;
+}
+
+.header-subtext {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: left;
+  margin: 0px;
+  padding-left: 416px;
+}
+.profile-image {
+  width: 333px;
+  height: 333px;
+  padding-top: 355px;
+  padding-left: 1174px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.profile-image img {
+  width: 100%;
+}
+.summary-section {
+  height: 439px;
+  background-color: #F4F4F4 ;
+}
