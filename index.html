@@ -15,11 +15,12 @@
 
   <header>
     <div class="icon-container">
-      <a class="icon" href="https://www.linkedin.com/in/jihyun-an-405431150/"><img
-          src="assets/iconmonstr-linkedin-1.svg" alt="linkedin"></a>
-      <a class="icon" href="https://github.com/jihyeona"><img src="assets/github.svg" alt="github"></a>
-      <a class="icon" href="https://stackoverflow.com/c/technigo/users/76"><img
-          src="assets/93ae73c51933403f4cf8512e8cf05115.svg" alt="stackoverflow"></a>
+      <a class="icon" id="icon-desktop-1" href="https://www.linkedin.com/in/jihyun-an-405431150/"><img
+          src="assets/linkedin-white-mobile.svg" alt="linkedin"></a>
+      <a class="icon" id="icon-desktop-2" href="https://github.com/jihyeona"><img src="assets/github-white-mobile.svg"
+          alt="github"></a>
+      <a class="icon" id="icon-desktop-3" href="https://stackoverflow.com/c/technigo/users/76"><img
+          src="assets/stack-white-mobile.svg" alt="stackoverflow"></a>
     </div>
     <div class="headertext-container">
       <p class="header-title">PORTFOLIO: JIHYUN AN</p>
@@ -35,10 +36,6 @@
   </header>
 
   <section class="portfolio-container-grey">
-    <div class="decoration">
-      <div class="line"></div>
-      <div class="circle"></div>
-    </div>
     <p class="box-text">
       Hello! I'm a frontend developer with background in urban planning and design. I'm all about
       functional,
@@ -50,101 +47,148 @@
     <div class="red-header-box">
       <div class="box-header">TECH</div>
     </div>
-    <p class="box-text">HTML, CSS, Flexbox, JavaScript, React, Node.js, mob-programming, pair-programming, Github</p>
+    <p class="box-text" id="tech-text">HTML, CSS, Flexbox, JavaScript, React, Node.js, mob-programming,
+      pair-programming, Github</p>
   </section>
 
   <section class="portfolio-container-grey">
     <div class="red-header-box">
       <div class="box-header">FEATURED PROJECTS</div>
     </div>
-    <section class="feature-container">
-      <article class="feature">
-        <a href="#"><img src="" alt="feature one"></a>
-        <h3>FEATURE PROJECT NO.1</h3>
-        <h4>Project summary</h4>
-        <div class="tag-container">
-          <h5>HTML</h5>
-          <h5>CSS</h5>
-          <h5>JavaScript</h5>
-        </div>
-      </article>
-      <article class="feature">
-        <a href="#"><img src="" alt="feature two"></a>
-        <h3>FEATURE PROJECT NO.2</h3>
-        <h4>Project summary</h4>
-        <div class="tag-container">
-          <h5>HTML</h5>
-          <h5>CSS</h5>
-          <h5>JavaScript</h5>
-        </div>
-      </article>
-      <article class="feature">
-        <a href="#"><img src="" alt="feature three"></a>
-        <h3>FEATURE PROJECT NO.3</h3>
-        <h4>Project summary</h4>
-        <div class="tag-container">
-          <h5>HTML</h5>
-          <h5>CSS</h5>
-          <h5>JavaScript</h5>
-        </div>
-      </article>
-      <article class="feature">
-        <a href="#"><img src="" alt="feature four"></a>
-        <h3>FEATURE PROJECT NO.4</h3>
-        <h4>Project summary</h4>
-        <div class="tag-container">
-          <h5>HTML</h5>
-          <h5>CSS</h5>
-          <h5>JavaScript</h5>
-        </div>
-      </article>
-    </section>
-  </section>
-
-  <section class="portfolio-container">
+    <div class="feature-desktop-bigbox">
+      <section class="feature-container" id="feature-desktop-container">
+        <article class="feature">
+          <a class="feature-img" href="#">SUNNY SIDE UP</a>
+          <div class="feature-text-container">
+            <p class="feature-red-title">WEATHER APP.</p>
+            <p class="feature-text">Web app build in Javascript using open weather API</p>
+            <p class="red-arrow">&gt;&gt;</p>
+          </div>
+          <div class="tag-container">
+            <div class="tag-box">
+              <p class="tag">HTML</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">CSS</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+        </article>
+        <article class="feature">
+          <a class="feature-img" href="#">SUNNY SIDE UP</a>
+          <div class="feature-text-container">
+            <p class="feature-red-title">WEATHER APP.</p>
+            <p class="feature-text">Web app build in Javascript using open weather API</p>
+            <p class="red-arrow">&gt;&gt;</p>
+          </div>
+          <div class="tag-container">
+            <div class="tag-box">
+              <p class="tag">HTML</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">CSS</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="feature-desktop-container">
+        <article class="feature-desktop">
+          <a class="feature-img" href="#">PROJECT X (TITLE)</a>
+          <div class="feature-text-container">
+            <p class="feature-red-title">DESCRIPTION OF TITLE.</p>
+            <p class="feature-text">Write short what the project is about and what technologies you used.</p>
+            <p class="red-arrow">&gt;&gt;</p>
+          </div>
+          <div class="tag-container">
+            <div class="tag-box">
+              <p class="tag">HTML</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">CSS</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+        </article>
+        <article class="feature-desktop">
+          <a class="feature-img" href="#">PROJECT X (TITLE)</a>
+          <div class="feature-text-container">
+            <p class="feature-red-title">DESCRIPTION OF TITLE.</p>
+            <p class="feature-text">Write short what the project is about and what technologies you used.</p>
+            <p class="red-arrow">&gt;&gt;</p>
+          </div>
+          <div class="tag-container">
+            <div class="tag-box">
+              <p class="tag">HTML</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">CSS</p>
+            </div>
+            <div class="tag-box">
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+        </article>
+    </div>
     <div class="red-header">OTHER PROJECTS</div>
-    <article class="other-feature">
-      <a href="#">
-        <h3>OTHER FEATURE PROJECT NO.1</h3>
-        <h4>Project summary</h4>
-      </a>
+    <article class="feature">
+      <div class="feature-text-container">
+        <p class="feature-red-title">WEATHER APP.</p>
+        <p class="feature-text">Web app build in Javascript using open weather API</p>
+        <p class="red-arrow">&gt;&gt;</p>
+      </div>
       <div class="tag-container">
-        <h5>HTML</h5>
-        <h5>CSS</h5>
-        <h5>JavaScript</h5>
+        <div class="tag-box">
+          <p class="tag">HTML</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">CSS</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">Javascript</p>
+        </div>
       </div>
     </article>
-    <article class="other-feature">
-      <a href="#">
-        <h3>OTHER FEATURE PROJECT NO.2</h3>
-        <h4>Project summary</h4>
-      </a>
+    <article class="feature">
+      <div class="feature-text-container">
+        <p class="feature-red-title">WEATHER APP.</p>
+        <p class="feature-text">Web app build in Javascript using open weather API</p>
+        <p class="red-arrow">&gt;&gt;</p>
+      </div>
       <div class="tag-container">
-        <h5>HTML</h5>
-        <h5>CSS</h5>
-        <h5>JavaScript</h5>
+        <div class="tag-box">
+          <p class="tag">HTML</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">CSS</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">Javascript</p>
+        </div>
       </div>
     </article>
-    <article class="other-feature">
-      <a href="#">
-        <h3>OTHER FEATURE PROJECT NO.3</h3>
-        <h4>Project summary</h4>
-      </a>
-      <div class="tag-container">
-        <h5>HTML</h5>
-        <h5>CSS</h5>
-        <h5>JavaScript</h5>
+    <article class="feature">
+      <div class="feature-text-container">
+        <p class="feature-red-title">WEATHER APP.</p>
+        <p class="feature-text">Web app build in Javascript using open weather API</p>
+        <p class="red-arrow">&gt;&gt;</p>
       </div>
-    </article>
-    <article class="other-feature">
-      <a href="#">
-        <h3>OTHER FEATURE PROJECT NO.4</h3>
-        <h4>Project summary</h4>
-      </a>
       <div class="tag-container">
-        <h5>HTML</h5>
-        <h5>CSS</h5>
-        <h5>JavaScript</h5>
+        <div class="tag-box">
+          <p class="tag">HTML</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">CSS</p>
+        </div>
+        <div class="tag-box">
+          <p class="tag">Javascript</p>
+        </div>
       </div>
     </article>
   </section>
@@ -153,81 +197,122 @@
     <div class="red-header-box">
       <div class="box-header">MY THOUGHTS</div>
     </div>
-    <section class="feature-container">
-      <article class="feature">
-        <a href="#"><img src="" alt="thought one"></a>
-        <h3>FEB 2020</h3>
-        <h3>My thought on ..</h3>
-        <h4>Post beginning paragraph...</h4>
+    <section class="feature-container" id="thoughts-big-box">
+      <article class="feature" id="thoughts-desktop">
+        <a class="thoughts-img" href="#"></a>
+        <div class="thoughts-text-container">
+          <p class="thoughts-red-date">JAN 2020</p>
+          <p class="thoughts-title">How to stop being scared: Learning to love code</p>
+          <p class="feature-text">Writing code is less about just working. Instead, it's much more about creativity.
+            It's similar to creative writing in that author architecting a story must use an assortment of tools and
+            components in such a way to satisfy a particular objective.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
       </article>
-      <article class="feature">
-        <a href="#"><img src="" alt="thought two"></a>
-        <h3>MAY 2020</h3>
-        <h3>I thought about this too ..</h3>
-        <h4>Post beginning paragraph...</h4>
-      </article>
-      <article class="more-thoughts">
-        <h2 class="red-header">MORE THOUGHTS</h2>
-        <a href="#">
-          <h4>Fun tips I got along the way</h4>
-        </a>
-        <a href="#">
-          <h4>Long and winding road</h4>
-        </a>
+      <article class="feature-desktop" id="thoughts-desktop">
+        <a class="thoughts-img" href="#"></a>
+        <div class="thoughts-text-container">
+          <p class="thoughts-red-date">JAN 2020</p>
+          <p class="thoughts-title">How to stop being scared: Learning to love code</p>
+          <p class="feature-text">Writing code is less about just working. Instead, it's much more about creativity.
+            It's similar to creative writing in that author architecting a story must use an assortment of tools and
+            components in such a way to satisfy a particular objective.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
       </article>
     </section>
+    <section class="feature-container">
+      <div class="red-header">MORE THOUGHTS</div>
+      <article class="feature">
+        <div class="thoughts-text-container" id="thoughts-big-box">
+          <p class="thoughts-red-date">FEB 2020</p>
+          <p class="more-thoughts-title">5 Apps that will make coding easier.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
+        <div class="thoughts-text-container" id="thoughts-big-box">
+          <p class="thoughts-red-date">FEB 2020</p>
+          <p class="more-thoughts-title">5 Apps that will make coding easier.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
+        <div class="thoughts-text-container" id="thoughts-big-box">
+          <p class="thoughts-red-date">FEB 2020</p>
+          <p class="more-thoughts-title">5 Apps that will make coding easier.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
+        <div class="thoughts-text-container" id="thoughts-big-box">
+          <p class="thoughts-red-date">FEB 2020</p>
+          <p class="more-thoughts-title">5 Apps that will make coding easier.</p>
+          <p class="red-arrow">&gt;&gt;</p>
+        </div>
+      </article>
+    </section>
+  </section>
 
-    <section class="portfolio-container-grey">
-      <div class="red-header-box">
-        <div class="box-header">SKILLS</div>
-      </div>
+  <section class="portfolio-container-grey">
+    <div class="red-header-box">
+      <div class="box-header">SKILLS</div>
+    </div>
+    <div id="thoughts-big-box">
       <section class="skills-container">
         <article class="skills-list">
-          <h4>CODE</h4>
-          <h4>HTML</h4>
-          <h4>CSS</h4>
-          <h4>JavaScript</h4>
-          <h4>React</h4>
-          <h4>Github</h4>
-          <h4>Node.js</h4>
+          <p class="feature-red-title">CODE</p>
+          <p class="skills-text">HTML</p>
+          <p class="skills-text">CSS</p>
+          <p class="skills-text">JavaScript</p>
+          <p class="skills-text">React</p>
+          <p class="skills-text">Github</p>
+          <p class="skills-text">Node.js</p>
         </article>
         <article class="skills-list">
-          <h4>TOOLBOX</h4>
-          <h4>Slack</h4>
-        </article>
-        <article class="skills-list">
-          <h4>MORE</h4>
-          <h4>Content development</h4>
-          <h4>Strategic planning</h4>
-          <h4>Urban planning and design</h4>
-        </article>
-        <article class="skills-list">
-          <h4>UPCOMING</h4>
-          <h4>Python</h4>
+          <p class="feature-red-title">TOOLBOX</p>
+          <p class="skills-text">Slack</p>
+          <p class="skills-text">Microsoft Excel</p>
+          <p class="skills-text">Keynote</p>
         </article>
       </section>
-    </section>
+      <section class="skills-container">
+        <article class="skills-list">
+          <p class="feature-red-title">MORE</p>
+          <p class="skills-text">Content development</p>
+          <p class="skills-text">Creative writing</p>
+          <p class="skills-text">Urban planning and design</p>
+        </article>
+        <article class="skills-list">
+          <p class="feature-red-title">UPCOMING</p>
+          <p class="skills-text">Python</p>
+        </article>
+      </section>
+    </div>
+  </section>
 
-    <section class="portfolio-container">
-      <div class="red-header-box">
-        <div class="box-header">FOR MORE</div>
+  <section class="portfolio-container">
+    <div class="red-header-box">
+      <div class="box-header">FOR MORE</div>
+    </div>
+    <div class="icon-container-2">
+      <div class="icon-container-3">
+        <a class="icon-2" id="icon-reddesktop-1" href="https://www.linkedin.com/in/jihyun-an-405431150/"><img
+            src="assets/linkedin-red-mobile.svg" alt="linkedin"></a>
+        <h5>LINKDEIN</h5>
       </div>
-      <a href="https://www.linkedin.com/in/jihyun-an-405431150/">
-        <h4>LINKEDIN</h4>
-      </a>
-      <a href="https://github.com/jihyeona">
-        <h4>GITHUB</h4>
-      </a>
-      <a href="https://stackoverflow.com/c/technigo/users/76">
-        <h4>STACKOVERFLOW</h4>
-      </a>
-    </section>
+      <div class="icon-container-3">
+        <a class="icon-2" id="icon-reddesktop-2" href="https://github.com/jihyeona"><img
+            src="assets/github-red-mobile.svg" alt="github"></a>
+        <h5>GITHUB</h5>
+      </div>
+      <div class="icon-container-3">
+        <a class="icon-2" id="icon-reddesktop-3" href="https://stackoverflow.com/c/technigo/users/76"><img
+            src="assets/stack-red-mobile.svg" alt="stackoverflow"></a>
+        <h5>STACKOVERFLOW</h5>
+      </div>
+    </div>
+  </section>
 
-    <footer class="contact">
-      <div class="box-header">CONTACT</div>
-      <p class="contact-name">JiHyeon An</p>
-      <p class="contact-info">jihyunan42@gmail.com</p>
-    </footer>
+  <footer class="contact">
+    <div class="contact-header">CONTACT</div>
+    <p class="contact-name">Jihyun An</p>
+    <p class="contact-info">jihyunan42@gmail.com</p>
+  </footer>
 
 </body>
 
