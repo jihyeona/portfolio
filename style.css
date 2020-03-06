@@ -346,6 +346,9 @@ h5 {
 
 
 @media (min-width: 667px) {
+  body {
+    background-color: #F4F4F4;
+  }
   header {
     max-width: -webkit-fill-available;
     background-image: url(images/IMG_8053.JPG);
@@ -353,6 +356,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 125px;
   }
   .icon-container {
     padding-top: 10%;
@@ -437,12 +441,13 @@ h5 {
   .box-text {
     font-size: 30px;
     text-align: left;
-    margin: 124px 300px 0px 300px;
+    margin: 0px 150px;
   }
   .portfolio-container {
     max-width: -webkit-fill-available;
     padding-right: 100px;
     padding-left: 100px;
+    padding-bottom: 100px;
   }
   .box-header {
     font-size: 48px;
