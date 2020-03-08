@@ -40,33 +40,27 @@ header {
   align-items: left;
   padding-top: 10px; 
   padding-left: 41px;
+  font-family: 'Montserrat';
 }
 .header-title {
-  font-family: 'Roboto';
-  font-size: 13px;
+  font-size: 22px;
+  font-weight: bolder;
   letter-spacing: 1.12px;
-  color: #FFFFFF;
+  color: gold;
   opacity: 1;
   letter-spacing: 0.52px;
-  text-align: left;
   margin-bottom: 0;
 }
 h1 {
-  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 40px;
-  color: #FFFFFF;
-  display: flex;
-  text-align: left;
+  color: gold;
   margin: 0px;
 }
 .header-subtext {
-  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 24px;
-  color: #FFFFFF;
-  display: flex;
-  align-items: left;
+  color: gold;
   margin: 0px;
 }
 .profile-image img {
@@ -135,7 +129,8 @@ h1 {
   font-family: 'Montserrat';
   font-size: 21px;
   color: #FFFFFF;
-  font-weight: bolder; 
+  font-weight: bolder;
+  margin: 0px; 
   padding: 2px 5px;
 }
 .red-header {
@@ -401,22 +396,12 @@ h5 {
     padding-top: 0;
   }
   h1 {
-    font-family: 'Montserrat';
-    font-weight: bold;
     font-size: 82px;
     color: #FFFFFF;
-    display: flex;
-    align-items: left;
-    margin: 0px;
   }
   .header-subtext {
-    font-family: 'Montserrat';
-    font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
-    display: flex;
-    align-items: left;
-    margin: 0px;
   }
   .profile-container {
     display: flex;
