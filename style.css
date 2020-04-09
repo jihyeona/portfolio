@@ -7,10 +7,9 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: left;
-  height: 650px;
-  min-width: 375px;
+  justify-content: flex-start;
+  max-height: 650px;
+  width: 100%;
   background-image: url(images/IMG_0164.JPG);
   background-position: inherit;
   background-repeat: no-repeat;
@@ -37,7 +36,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: left;
+  align-items: flex-start;
   padding-top: 10px; 
   padding-left: 41px;
   font-family: 'Montserrat';
@@ -68,8 +67,8 @@ h1 {
   width: 162px;
   height: 162px;
   border-radius: 50%;
-  margin-top: 150px;
-  margin-left: 50%;
+  margin-top: 50%;
+  margin-left: 60%;
   position: relative;
 }
 .portfolio-container-grey {
@@ -161,9 +160,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 303px;
+  width: 90%;
   height: 179px;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
   background-image: url(images/feature-mobile.png);
   background-size: inherit;
   background-position: inherit;
@@ -229,9 +231,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 301px;
+  width: 90%;
   height: 205px;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
   background-image: url(images/mythoughts-mobile.png);
   background-size: inherit;
   background-position: inherit;
@@ -295,7 +300,13 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px 20px 0px 20px;
+  margin: 15px 0px 0px 20px;
+}
+.icon-container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px 0px 30px;
 }
 .icon-2 {
   border: 3px solid #FF0000;
@@ -339,13 +350,67 @@ h1 {
   font-size: 17px; 
 }
 
+@media (min-width: 668px) and (max-width: 1023px) {
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  headertext-container {
+    padding-top: 60px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .header-subtext {
+    display: flex;
+    font-size: 30px;
+  }
+  .profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profile-image {
+    display:flex;
+  }
+  .profile-image img {
+    width: 230px;
+    height: 230px;
+    margin: 30px;
+  }
+  .feature-img {
+    width: 50%;
+  }
+  .thoughts-img {
+    width: 39%;
+  }
+  .thoughts-text-container {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .feature-container {
+    width: 100%;
+  }
+  .skills-list { 
+    margin: 0px 110px;
+  }
 
-@media (min-width: 667px) {
+}
+
+@media (min-width: 1024px) {
   body {
     background-color: #F4F4F4;
   }
   header {
     max-width: -webkit-fill-available;
+    width:100%;
     background-image: url(images/IMG_8053.JPG);
     background-position: inherit;
     background-repeat: no-repeat;
@@ -387,9 +452,8 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: left;
-    margin-top: 55px;
-    margin-left: 30%; 
+    align-items: flex-start;
+    margin-top: 55px; 
   }
   .header-title {
     font-size: 28px;  
@@ -399,13 +463,15 @@ h1 {
     font-size: 82px;
     color: #FFFFFF;
   }
+  .profile-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .header-subtext {
     font-size: 50px;
     color: #FFFFFF;
-  }
-  .profile-container {
-    display: flex;
-    flex-direction: row;
   }
   .profile-image img {
     position: relative;
@@ -413,9 +479,7 @@ h1 {
     height: 250px;
     border: 2px solid white;
     border-radius: 50%;
-    margin-top: 0;
-    margin-left: 40%;
-    margin-bottom: 50px;
+    margin: 0 30px 0 0;
   }
   .portfolio-container-grey {
     max-width: -webkit-fill-available;
@@ -450,6 +514,7 @@ h1 {
   }
   .feature {
     align-items: flex-start;
+    width: 95%;
   }
   .feature-desktop {
     display: flex;
@@ -460,9 +525,10 @@ h1 {
   #feature-desktop-container {
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
   .feature-img {
-    width: 529px;
+    width: 100%; 
     height: 309px;
     background-image: url(images/feature-desktop.png);
     background-size: contain;
@@ -470,7 +536,7 @@ h1 {
   }
   .feature-text-container{
     display: flex;
-    width: 529px;
+    width: 95%;
     flex-wrap: row wrap;
   }
   .feature-red-title {
@@ -502,8 +568,11 @@ h1 {
     display: flex;
     flex-direction: row;
   }
+  .thoughts-desktop {
+    align-items: flex-start;
+  }
   .thoughts-img {
-    width: 529px;
+    width: 89%;
     height: 309px;
     background-image: url(images/mythoughts-desktop.png);
     background-size: contain;
