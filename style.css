@@ -155,25 +155,40 @@ h1 {
 .feature-desktop {
   display: none;
 }
-.feature-img {
+#feature-desktop-container-2 {
+  display: none;
+}
+.feature-img-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 179px;
+  width: 100%;
+  height: 400px;
   margin-top: 30px;
   margin-bottom: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url(images/feature-mobile.png);
-  background-size: inherit;
-  background-position: inherit;
-  font-family: 'Montserrat';
-  font-size: 16px;
-  font-weight: bolder;
-  color: gold;
-  text-decoration: none;
+  background-image: url(images/movie-feature-mobile.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.feature-img-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-image: url(images/happy-feature-mobile.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .feature-text-container{
   display: flex;
@@ -510,34 +525,63 @@ h1 {
   }
   .feature-desktop-bigbox {
     display: flex;
-    flex-direction: row;
-  }
-  .feature {
-    align-items: flex-start;
-    width: 95%;
-  }
-  .feature-desktop {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; 
   }
   #feature-desktop-container {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
   }
-  .feature-img {
-    width: 100%; 
-    height: 309px;
-    background-image: url(images/feature-desktop.png);
+  #feature-desktop-container-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+  }
+  #feature-desktop {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .feature-img-1 {
+    width: 95%; 
+    height: 300px;
+    background-image: url(images/movie-project-desktop.png);
     background-size: contain;
-    font-size: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .feature-img-2 {
+    width: 95%; 
+    height: 300px;
+    background-image: url(images/happy-feature-desktop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .feature-img-3 {
+    width: 95%; 
+    height: 300px;
+    background-image: url(images/weather-feature-desktop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .feature-img-4 {
+    width: 95%; 
+    height: 300px;
+    background-image: url(images/music-feature-desktop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .feature-text-container{
     display: flex;
     width: 95%;
-    flex-wrap: row wrap;
+    flex-direction: row wrap;
+    margin-top: 10px;
   }
   .feature-red-title {
     font-size: 25px;
@@ -549,7 +593,10 @@ h1 {
     font-size: 25px;
   }
   .tag-container {
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 30px 20px 50px;
   }
   .tag-box {
     margin-right: 6px;
