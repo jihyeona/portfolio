@@ -241,6 +241,22 @@ h1 {
   text-align: center;
   margin: 0;
 }
+.thoughts-img-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-image: url(images/thoughts-mobile-1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .thoughts-img {
   display: flex;
   flex-direction: column;
@@ -614,26 +630,40 @@ h1 {
   #thoughts-big-box {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+    width: 100%;
   }
-  .thoughts-desktop {
-    align-items: flex-start;
+  #thoughts-desktop {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
   }
   .thoughts-img {
-    width: 89%;
-    height: 309px;
+    width: 95%; 
+    height: 300px;
     background-image: url(images/mythoughts-desktop.png);
     background-size: contain;
-    margin: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .thoughts-img-1 {
+    width: 95%; 
+    height: 300px;
+    background-image: url(images/thoughts-desktop-1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .thoughts-text-container {
-    margin: 12px 60px;
+    margin: 12px 30px;
   }
   .thoughts-red-date {
     font-size: 25px;
     margin-right: 10px;
   }
   .thoughts-title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .more-thoughts-title {
     font-size: 25px;
