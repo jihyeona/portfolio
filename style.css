@@ -647,6 +647,7 @@ h1 {
   #thoughts-big-box {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: baseline;
     width: 100%;
   }
@@ -693,6 +694,14 @@ h1 {
   .more-thoughts-title {
     font-size: 25px;
     margin-right: 10px;
+  }
+  #skills-big-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+    margin: 0px 250px 0px 350px;
   }
   .skills-text {
     font-size: 25px;
