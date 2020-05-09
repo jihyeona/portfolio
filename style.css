@@ -169,7 +169,7 @@ h1 {
   margin-bottom: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url(images/movie-feature-mobile.jpg);
+  background-image: url(images/happy-feature-mobile.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ h1 {
   margin-bottom: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url(images/happy-feature-mobile.jpg);
+  background-image: url(images/todo-mobile-feature.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -581,7 +581,7 @@ h1 {
   .feature-img-1 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/movie-project-desktop.png);
+    background-image: url(images/happy-feature-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -589,7 +589,7 @@ h1 {
   .feature-img-2 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/happy-feature-desktop.png);
+    background-image: url(images/todo-desktop-feature.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -597,7 +597,7 @@ h1 {
   .feature-img-3 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/weather-feature-desktop.png);
+    background-image: url(images/movie-project-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -605,7 +605,7 @@ h1 {
   .feature-img-4 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/music-feature-desktop.png);
+    background-image: url(images/weather-feature-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
