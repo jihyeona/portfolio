@@ -87,7 +87,7 @@ h1 {
   text-align: center;
   letter-spacing: 0;
   color: #000000;
-  margin: 58px 36px 56px 36px;
+  margin: 1.6em 1.3em 0em 1.3em;
 }
 .decoration {
   display: flex;
@@ -538,7 +538,8 @@ h1 {
   .box-text {
     font-size: 30px;
     text-align: left;
-    margin: 0px 150px;
+    margin: 0em 2.3em 0.5em 2.3em;
+    line-height: 1.2;
   }
   .portfolio-container {
     max-width: -webkit-fill-available;
@@ -581,7 +582,7 @@ h1 {
   .feature-img-1 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/happy-feature-desktop.png);
+    background-image: url(images/heartpix-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -589,7 +590,7 @@ h1 {
   .feature-img-2 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/todo-desktop-feature.png);
+    background-image: url(images/happy-feature-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -597,7 +598,7 @@ h1 {
   .feature-img-3 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/movie-project-desktop.png);
+    background-image: url(images/todo-desktop-feature.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -605,7 +606,7 @@ h1 {
   .feature-img-4 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/weather-feature-desktop.png);
+    background-image: url(images/movie-project-desktop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
