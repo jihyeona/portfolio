@@ -253,7 +253,7 @@ h1 {
   margin-bottom: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url(images/thoughts-mobile-1.jpg);
+  background-image: url(images/thoughts-2-mobile.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ h1 {
   margin-bottom: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url(images/thoughts-mobile-2.jpg);
+  background-image: url(images/thoughts-mobile-toggle.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -669,7 +669,7 @@ h1 {
   .thoughts-img-1 {
     width: 95%; 
     height: 300px;
-    background-image: url(images/thoughts-desktop-1.jpg);
+    background-image: url(images/thoughts-2-desktop.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
