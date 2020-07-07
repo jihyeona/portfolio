@@ -309,6 +309,13 @@ h1 {
   text-align: left;
   margin: 0;
 }
+.thoughts-text {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
 .more-thoughts-title {
   font-family: 'Roboto';
   font-size: 17px;
@@ -624,7 +631,7 @@ h1 {
     font-size: 25px;
   }
   .red-arrow {
-    font-size: 25px;
+    font-size: 20px;
   }
   .tag-container {
     display: flex;
@@ -686,11 +693,14 @@ h1 {
     margin: 12px 30px;
   }
   .thoughts-red-date {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 10px;
   }
   .thoughts-title {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .thoughts-text {
+    font-size: 20px;
   }
   .more-thoughts-title {
     font-size: 25px;
